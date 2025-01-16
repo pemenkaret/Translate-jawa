@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "353741817638",
+    "firebase_url": "https://kamus-uas-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kamus-uas",
+    "storage_bucket": "kamus-uas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353741817638:android:460b23f43f211a2f6723e7",
+        "android_client_info": {
+          "package_name": "com.example.tugas_akhir_sems"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_BMMmMhhz2eic6WjxTl804Ke6ZRQK2s4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

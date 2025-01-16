@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tv_about_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Aplikasi"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_about_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini dibuat untuk membantu Anda dalam menerjemahkan kata-kata dari Bahasa Indonesia ke Bahasa Jawa dan sebaliknya. Fitur lainnya termasuk favorit kata dan riwayat terjemahan."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_about_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Versi: 1.0"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_about_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hubungi Kami"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:padding="14dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

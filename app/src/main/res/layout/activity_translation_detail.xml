@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="306dp"
+    android:background="#3C3939"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textStyle="bold"
+        android:background="#575656"
+        android:padding="8dp"
+        android:layout_gravity="start" />
+    <TextView
+        android:id="@+id/originalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/translatedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ADA7A7"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:padding="8dp" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#4E4D4D"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
