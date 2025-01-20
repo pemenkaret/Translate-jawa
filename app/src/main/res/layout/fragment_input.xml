@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teks Indonesia"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:background="@drawable/bg_input">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@drawable/bg_input"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indonesia"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/et_indonesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#646464"
+                android:textStyle="bold"
+                android:hint="Masukkan teks Indonesia"
+                android:inputType="text"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Krama Alus"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/et_kramaalus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#646464"
+                android:textStyle="bold"
+                android:hint="Masukkan teks Krama Alus"
+                android:inputType="text"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Krama Inggil"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/et_kramainggil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#646464"
+                android:textStyle="bold"
+                android:hint="Masukkan teks Krama Inggil"
+                android:inputType="text"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngoko"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/et_ngoko"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#646464"
+                android:textStyle="bold"
+                android:hint="Masukkan teks Ngoko"
+                android:inputType="text"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"/>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambah Kata"
+                android:textColor="#313131"
+                android:backgroundTint="#999393"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="54dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

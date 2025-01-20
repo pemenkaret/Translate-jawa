@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Inisialisasi Toolbar
         Toolbar toolbar = findViewById(R.id.bagian_toolbar);
-        // Jika ActionBar bawaan sudah dinonaktifkan, tidak perlu memanggil setSupportActionBar
 
         // Menambahkan tombol hamburger di Toolbar
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -41,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(item -> {
             int id = item.getItemId();
             Fragment fragment = null;
-
-            // Mengatur fragment berdasarkan item menu yang dipilih
             if (id == R.id.nav_home) {
                 fragment = new HomeFragment();
             } else if (id == R.id.nav_favorites) {
@@ -51,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
                 fragment = new AboutFragment();
             } else if (id == R.id.nav_setting) {
                 fragment = new SettingFragment();
+            } else if (id == R.id.nav_input){
+                fragment = new InputFragment();
             }
 
             if (fragment != null) {

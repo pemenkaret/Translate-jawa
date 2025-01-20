@@ -5,12 +5,15 @@
         android:id="@+id/nav_home"
         android:title="Beranda (Translate)"/>
     <item
+        android:id="@+id/nav_input"
+        android:title="Input Kata"/>
+    <item
         android:id="@+id/nav_favorites"
         android:title="Kata Favorit"/>
     <item
         android:id="@+id/nav_about"
-        android:title="About"/>
+        android:title="Tentang"/>
     <item
         android:id="@+id/nav_setting"
-        android:title="Setting"/>
+        android:title="Pengaturan"/>
 </menu>
